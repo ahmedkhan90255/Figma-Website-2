@@ -3,13 +3,13 @@
   margin: 0px;
 }
 #container1 {
-  width: fit-content;
+  width: 100%;
   background-color: rgba(116, 198, 157, 1);
   height: fit-content;
 }
 .nav-container {
     display: flex;
-    gap: 608px;
+    gap: 580px;
     padding: 35px 100px;
 }
 .nav-container1 {
@@ -45,10 +45,14 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
+  body {
+    width: fit-content;
+    outline: hidden;
+  }
   #container1 {
     padding: 0px;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
   }
   .nav-container {
